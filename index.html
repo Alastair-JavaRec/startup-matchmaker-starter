@@ -4,60 +4,67 @@
 
 	<meta charset="UTF-8">
 	<title>Startup Matchmaker</title>
-	<link rel="normalize" href="normalize.css">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="normalize" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/styles.css">
 	
 	<!-- Google how to add the 'Source Sans Pro', 'Oswald' and 'Merriweather' Google Fonts to your CSS -->
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oswald:700|Merriweather:700,700italic' rel='stylesheet' type='text/css'>
 
 </head>
 	<body>
-
-		<header>
-			<div class="logo">Startup Matchmaker</div>
+	<header class="page-header">
+		<div class="wrapper">
+			<h1><a href="index.html">Startup Matchmaker</a></h1>
 			<nav>
 				<ul>
-					<li>Blog</li>
-					<li>Our Team</li>
-					<li>How it Works</li>
-					<li class="jobs">Find Developers</li>
-					<li class="jobs">Find Designers</li>
+					<li><strong><a href="developers.html">Developers</a></strong></li>
+					<li><strong><a href="designers.html">Designers</a></strong></li>
+					<li><a href="how.html">How it Works</a></li>
+					<li><a href="team.html">Our Team</a></li>
+					<li><a href="blog.html">Blog</a></li>
 				</ul>
 			</nav>
-		</header>
-
-		<section class="strapline clearfix">
-			<h2>Because two brains <span class="linethrough">taste</span> <span class="underline">are</span> better than one.</h2> 
-		</section>
-
-		<main>
-			<div class="column1 clearfix">
-				<div class="textbox" > 
-					<h3 class="clearfix">Meet your Match!</h3>
-					<h4>Have a great idea for a product, but need help making it a reality? We're here to help. Startup Matchmaker is the best place for designers and developers to find each other.</h4>
-					<h5>Create a profile</h5>
-				</div>			
+		</div>
+	</header>
+	<p class="tagline">Because two brains <del>taste</del> <ins>are</ins> better than&nbsp;one.</p>
+	<section class="banner">
+		<div class="wrapper">
+			<div class="blurb">
+				<h2>Meet your Match!</h2>
+				<p>Have a great idea for a product, but need help making it a reality? We’re here to help. Startup Matchmaker is the best place for designers and developers to find each other.</p>
+				<a class="button" href="#">Create a Profile</a>
 			</div>
-		</main>
-
-			<section class="articles clearfix">
-				<div class="column-one-third">
-					<strong>Create a Profile</strong>
-						<article>Are you a Designer? Developer? Put yourself out there so that other can find you!</article>
-					<button>sign up now</button>
-				</div>
-					<div class="column-one-third">
-					<strong>Find a developer</strong>
-						<article>Looking for a fantastic developer to work with on the next big thing? Look no futher.</article>
-					<button>start your search</button>
-				</div>
-				<div class="column-one-third" >
-					<strong>Find a designer</strong>
-						<article>Need someone who can make a product intutive and appealing? Get ready.</article>
-					<button>start your search</button>
-				</div>
-			</section> 
-
-			<footer class="clearfix">&copy; 2013 Startup Matchmaker. Made in NY.</footer>
-	</body>
+		</div>
+	</section>
+	<div class="wrapper">
+		<section class="touts">
+			<section class="tout">
+				<header>
+					<h3>Create a Profile</h3>
+				</header>
+				<p>Are you a Designer? Developer? Put yourself out there so that others can find you!</p>
+				<a class="button" href="#">Sign Up Now</a>
+			</section>
+			<section class="tout">
+				<header>
+					<h3>Find a Developer</h3>
+				</header>
+				<p>Looking for a fantastic developer to work with on the next big thing? Look no further.</p>
+				<a class="button" href="developers.html">Start Your Search</a>
+			</section>
+			<section class="tout">
+				<header>
+					<h3>Find a Designer</h3>
+				</header>
+				<p>Need someone who can make a product intuitive and appealing? Get ready.</p>
+				<a class="button" href="designers.html">Start Your Search</a>
+			</section>
+		</section>
+	</div>
+	<footer>
+		<div class="wrapper">
+			© 2013 Startup Matchmaker. Made in NY.
+		</div>
+	</footer>
+</body>
 </html>
